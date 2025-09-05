@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #cacaca;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    background-image: url(images/banner_acceuil.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 60px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    
+    text-align: center;
+    background-color: #cacaca;
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+.mainp main{
+    margin-left: 350px;
+}
+.mainp2 main{
+    margin-left: 350px;
+}
+
+aside {
+    background-color: #bfbfbf;
+    padding: 20px;
+    width: 35%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: #7f8c8d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+section{
+    text-align: center;
+    
+}
+.section{
+    
+    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
+    background: #cacaca;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.section img{
+    width: 400px;
+max-width: auto;
+}
+.section section{
+    justify-content: center;
+}
+main{
+    justify-content: center;
+    text-align: center;
+}
+ a:hover{
+    color:aqua ;
+}
+.section button{
+    border: none;
+    border-radius: 10px;
+    font-size:x-large;
+    background-color: aqua;
+    transition: 0.2s;
+}
+.section button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Welcome button{
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+.Welcome button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.tablepaint div{
+    text-align: center;
+
+}
+.tablepaint th, td{
+    border: 1px solid aqua;
+    padding: 15px;
+    text-align: center;
+}
+
+.tablepaint th{
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+}
+.tablepaint table{
+    
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+.listtools ul{
+    
+    padding:40px;
+}
+.listtools li{
+    font-size: 30px;
+}
+.img {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 1000px;
+    background: #cacaca;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.img img{
+    width: 400px;
+    max-width: 800px;
+    transition: .2s;
+}
+.img img:hover{
+    transform: scale(1.1);
+}
+.footp footer{
+    margin-top: 655px;
+}
+.listtools img{
+    width: 40px;
+}
+.Welcome button{
+    transition: 0.2s;
+}
+.footp2{
+    margin-top: 655px;
+}

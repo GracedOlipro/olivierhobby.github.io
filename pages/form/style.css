@@ -1,0 +1,92 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background: #cacaca;
+  
+    justify-content:center;
+}
+.container{
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 600px;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+label{
+    display: block;
+    text-align: left;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+   padding-bottom: 20px;
+    
+    border-radius: 6px;
+   border: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+select{
+    
+    width: 95%; 
+    border-radius: 6px;
+   border: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+.container button{
+    font-weight: bold;
+    max-width: 100%;
+    padding-top: 20px;
+    padding: 10px;
+    width: 600px;
+    background-color: #2bd5f7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+textarea{
+    width: 500px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: #7f8c8d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+button{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+   
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.btnsig button{
+    margin-left: 800px;
+}
